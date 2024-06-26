@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #C0C0C0;
+}
+header {
+    padding: 20px 0;
+}
+.navbar-brand {
+    font-size: 1.5rem;  
+    font-weight: bold;  
+    color:bisque;        
+}
+.nav-link {
+    color: #fff;        
+}
+.new-arrivals {
+    background-color: #f8f9fa; 
+    padding: 50px 0;
+}
+.new-arrivals img {
+    max-width: 100%;
+    height: auto;
+ }
+.categories img {
+    width: 100%;        
+    max-width: 200px;   
+}
+.products .card {
+    transition: transform 0.3s; 
+}
+footer {
+    background-color: #343a40;  
+    color: #fff;               
+    padding: 20px 0;
+}
+@media (max-width: 576px) {
+    .new-arrivals {
+        text-align: center;
+    }
+    .new-arrivals img {
+        margin: 0 auto;
+    }
+    .brand-logos {
+        text-align: center;
+    }
+    .categories img {
+        max-width: 100%;
+    }
+    .products .card {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .new-arrivals {
+        text-align: center;
+    }
+    .new-arrivals img {
+        margin: 0 auto;
+    }
+    .brand-logos {
+        text-align: center;
+    }
+    .categories img {
+        max-width: 100%;
+    }
+@media (min-width: 769px) {
+    .new-arrivals {
+        text-align: left;
+    }
+    .new-arrivals img {
+        margin: 0;
+    }
+}
